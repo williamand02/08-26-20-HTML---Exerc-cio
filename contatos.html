@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Nome do site</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./styles/global.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/contatos.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Comfortable Chairs</h1>
+    </div>
+    <div class="container-body">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="telefone.html">Telefone</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form>
+                <h2>Contato</h2>
+
+                <div class="inputs">
+
+                    <label for="nome">Nome:*</label>
+                    <input type="text" name="nome" required id="nome" />
+                </div>
+                <div class="inputs">
+                    <label for="telefone">Telefone:*</label>
+                    <input type="telefone" name="telefone" required id="telefone" />
+                </div>
+                <div class="inputs">
+                    <label for="email">E-mail*</label>
+                    <input type="email" name="email" required id="email" />
+                </div>
+                <div>
+                    <input type="radio" id="sexm" name="sexo" value="m">
+                    <label for="sexm"> Masculino</label>
+                    <input type="radio" id="sexf" name="sexo" value="f">
+                    <label for="sexf"> Feminino</label>
+                    <input type="radio" id="sexn" name="vehicle3" value="n" checked>
+                    <label for="sexn"> Não sei</label>
+                </div>
+                <div class="inputs">
+                    <label for="idade">Idade </label>
+                    <input type="number" id="idade" name="idade" />
+                </div>
+                <div class="inputs">
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <option value="cp">Compra</option>
+                        <option value="ct">Contato</option>
+                        <option value="rc">Reclamação</option>
+                        <option value="sg">Sugestões</option>
+                    </select>
+                </div>
+                <div class="inputs">
+                    <label for="opiniao">Opinião</label>
+                    <textarea id="opiniao" name="opiniao" rows="5" cols="10"></textarea>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+
+                <button type="submit">Savlar</button>
+            </form>
+
+
+        </main>
+    </div>
+    <footer>Fim da pagina</footer>
+</body>
+
+</html>

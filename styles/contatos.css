@@ -1,0 +1,28 @@
+.container{
+    width: 900px;
+    margin: auto;
+    background: #0000004f;
+}
+.inputs{
+    margin: 5px 0px;
+}
+.inputs label{
+    position: absolute;
+    width: 100px;
+    
+}
+.inputs input,.inputs select{
+    left: 100px;
+    position: relative;
+    width: 170px;
+    height: 25px;
+}
+textarea#opiniao {
+    position: relative;
+    top: 20px;
+    width: 269px;
+}
+form {
+    width: 400px;
+    margin: auto;
+}
